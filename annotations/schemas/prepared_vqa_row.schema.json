@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prepared VQA JSONL row; schema only, no complete source QA records distributed in this packet",
+  "type": "object",
+  "properties": {
+    "answer": {
+      "type": "string"
+    },
+    "answer_format": {
+      "type": "string"
+    },
+    "clinical_relevance": {
+      "type": "boolean"
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "distribution": {
+      "type": "string"
+    },
+    "end_seconds": {
+      "type": "number"
+    },
+    "internal_id": {
+      "type": "string"
+    },
+    "ood": {
+      "type": "boolean"
+    },
+    "primary_capability": {
+      "type": "string"
+    },
+    "primary_capability_raw": {
+      "type": "string"
+    },
+    "procedure_type": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "secondary_capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_split": {
+      "type": "string"
+    },
+    "start_seconds": {
+      "type": "number"
+    },
+    "timestamp_end": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "timestamp_start": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "track": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "video_path": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "answer",
+    "answer_format",
+    "clinical_relevance",
+    "dataset",
+    "distribution",
+    "end_seconds",
+    "internal_id",
+    "ood",
+    "primary_capability",
+    "primary_capability_raw",
+    "procedure_type",
+    "question",
+    "secondary_capabilities",
+    "source_split",
+    "start_seconds",
+    "timestamp_end",
+    "timestamp_start",
+    "track",
+    "video",
+    "video_path"
+  ],
+  "additionalProperties": false
+}

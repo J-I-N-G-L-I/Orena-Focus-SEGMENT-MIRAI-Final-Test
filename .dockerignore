@@ -1,0 +1,17 @@
+**
+!Dockerfile
+!requirements.txt
+!runtime/
+!runtime/**
+!model/
+!model/adapter/
+!model/adapter/**
+!model/processor/
+!model/processor/**
+!model/run_manifest.json
+!resources/
+!resources/base_qwen35_9b/
+!resources/base_qwen35_9b/**
+**/__pycache__/
+**/*.pyc
+**/.cache/

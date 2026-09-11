@@ -1,0 +1,133 @@
+{
+  "checkpoint": "original step-3500",
+  "base_model": {
+    "repo_id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  },
+  "original_adapter_sha256": "9f88d41efb3e271190072dad47f4a608caf322b7d5ffa0060c074d3f435d6497",
+  "original_container_archive_sha256": "b3c1596a08b05b0d808d983010c12f4f34bc0ab116c5ea404bc521c8058179a7",
+  "original_container_image_id": "sha256:6183e6bd69959bd08ce7559c43f94dff0249dfdd47c76b0deb182190a380aaaa",
+  "original_container_config_sha256": "a63e5a5bf55c35597c92fdf6e60737551ef4b588d2e5d37b7c7584d1f458b1a1",
+  "original_container_bytes": 24538916354,
+  "submission_profile": "legacy-fallback",
+  "runtime_files": [
+    {
+      "path": "runtime/attention_runtime.py",
+      "original_sha256": "3178dde11bffece1954671699c9c86b8b730cf183537d8f3507892dd6d0b7744",
+      "public_sha256": "3178dde11bffece1954671699c9c86b8b730cf183537d8f3507892dd6d0b7744",
+      "change": "none"
+    },
+    {
+      "path": "runtime/challenge_io.py",
+      "original_sha256": "9ea80d9eef44bbedb0a8a98cb2a4047026a8460bbdeded5c120837d9e1b31fb2",
+      "public_sha256": "9ea80d9eef44bbedb0a8a98cb2a4047026a8460bbdeded5c120837d9e1b31fb2",
+      "change": "none"
+    },
+    {
+      "path": "runtime/inference_engine.py",
+      "original_sha256": "ba76defe70f0afe884cf06e4763982996bc95e71e647c55626a1e0e59346ffc5",
+      "public_sha256": "ba76defe70f0afe884cf06e4763982996bc95e71e647c55626a1e0e59346ffc5",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/__init__.py",
+      "original_sha256": "c2d96a83aecc99e80c07910ef10ba662086193e019586f6761b10973af9b627e",
+      "public_sha256": "c2d96a83aecc99e80c07910ef10ba662086193e019586f6761b10973af9b627e",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/config.py",
+      "original_sha256": "6d99fd305569bcde93b79b3230a65a98a444caafcfb0de2ad423ad97a736e0c1",
+      "public_sha256": "155cb842fde1abeb8b64b114588d8a67dd02a1d029408226f51969ff15c0f1c6",
+      "change": "Only unused laboratory filesystem defaults generalized; all classes/functions unchanged"
+    },
+    {
+      "path": "runtime/patch_selection/io_utils.py",
+      "original_sha256": "51410fc230be610691809cf98912d9eb3c902ae0303aa5e7242816837252555e",
+      "public_sha256": "51410fc230be610691809cf98912d9eb3c902ae0303aa5e7242816837252555e",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/lora_policy.py",
+      "original_sha256": "482ccaf06df01fe2ea123b7ab777a65e214aa5eb5ec3bdd59c7fb4ff8ba9a226",
+      "public_sha256": "482ccaf06df01fe2ea123b7ab777a65e214aa5eb5ec3bdd59c7fb4ff8ba9a226",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/media_inputs.py",
+      "original_sha256": "5199f3c9a1de55724806e752be4c96043d28e9ebe50a4cc12dcb8a95816695ed",
+      "public_sha256": "5199f3c9a1de55724806e752be4c96043d28e9ebe50a4cc12dcb8a95816695ed",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/model_utils.py",
+      "original_sha256": "a42f095934ac621bfe8e101053007acca3ab75632ebd7a8a966ee219ff5638f4",
+      "public_sha256": "a42f095934ac621bfe8e101053007acca3ab75632ebd7a8a966ee219ff5638f4",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/prompting.py",
+      "original_sha256": "48974ea2524881133e2b82ca19c527af95d53821ac0fcbe17df4cb6f63a84ff9",
+      "public_sha256": "48974ea2524881133e2b82ca19c527af95d53821ac0fcbe17df4cb6f63a84ff9",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/resolution.py",
+      "original_sha256": "764b2e1451e0d1874e5e9f86d555291e940fdc09bf547942303596be64d9e89f",
+      "public_sha256": "764b2e1451e0d1874e5e9f86d555291e940fdc09bf547942303596be64d9e89f",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/selection.py",
+      "original_sha256": "0762d95c65659349d0da3b9eb565bcf48bc1e0e5cdda54c819de729295bf39a4",
+      "public_sha256": "0762d95c65659349d0da3b9eb565bcf48bc1e0e5cdda54c819de729295bf39a4",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/sparse_inputs.py",
+      "original_sha256": "63f0ae970129aa14fa3a41ae9c76935cf0bc8b0b6f887d42c920badb418494c8",
+      "public_sha256": "63f0ae970129aa14fa3a41ae9c76935cf0bc8b0b6f887d42c920badb418494c8",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/sparse_vision.py",
+      "original_sha256": "beb172bdf27cb8a9cc6de151f03d0ae11cf1e006772305e28be382bc8e72ff22",
+      "public_sha256": "beb172bdf27cb8a9cc6de151f03d0ae11cf1e006772305e28be382bc8e72ff22",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/time_constraints.py",
+      "original_sha256": "fdc292c5ac0e62a233f4270bfd85aca7491951dcf2a385e145f94459ff5719a3",
+      "public_sha256": "fdc292c5ac0e62a233f4270bfd85aca7491951dcf2a385e145f94459ff5719a3",
+      "change": "none"
+    },
+    {
+      "path": "runtime/patch_selection/video_io.py",
+      "original_sha256": "cf77b84be80d9f36749188d01839f91b951edecb59338713d3c40c09718b2c5d",
+      "public_sha256": "cf77b84be80d9f36749188d01839f91b951edecb59338713d3c40c09718b2c5d",
+      "change": "none"
+    },
+    {
+      "path": "runtime/submission/inference.py",
+      "original_sha256": "1cfc47bab041796364d2fb631568e935efe740fe93cb2ab7653a635208444ca9",
+      "public_sha256": "1cfc47bab041796364d2fb631568e935efe740fe93cb2ab7653a635208444ca9",
+      "change": "none"
+    }
+  ],
+  "runtime_file_count": 17,
+  "original_run_manifest_sha256": "ad4fa25d6e64a9f6dd6879f6ffe3763ce1c8d64ecfc92a10040099e22be769ad",
+  "public_run_manifest_sha256": "1ef1cf875e0902b60177fb2ce33e935fb8d095c8035b2ba30265607747b6a976",
+  "metadata_change": "Retain exactly config.experiment; omit training state, raw label corrections, machine paths and unrelated records",
+  "weights_and_processor_modified": false,
+  "public_docker_is_original_image": false,
+  "historical_original_container_tests": {
+    "archive_integrity": "pass",
+    "docker_reload": "pass",
+    "adapter_meta_shapes": "pass_500_tensors",
+    "native_processor": "pass",
+    "offline_interface": "pass_no_GPU_fallback_only"
+  },
+  "public_release_gpu_inference_tested": false,
+  "public_rebuild_docker_tested": false,
+  "annotation_publication_exception_confirmed": false
+}

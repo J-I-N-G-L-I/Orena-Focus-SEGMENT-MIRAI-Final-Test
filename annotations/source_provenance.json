@@ -1,0 +1,83 @@
+{
+  "prepared_data_fingerprint": "ed2467046e6cf1730f6af19a73148da446ba1fd425620b13f874d1b1ee5bf1f5",
+  "source_files": [
+    {
+      "dev_rows": 1000,
+      "path": "heico/data/segment/train.parquet",
+      "sha256": "198861bff139a75a63b3bb901b6969697b538b5e5b5b18d0cf3d4e7dfbbc2a44",
+      "source_rows": 4000,
+      "train_rows": 3000
+    },
+    {
+      "dev_rows": 200,
+      "path": "heico/data/segment/test.parquet",
+      "sha256": "e7efeeeb8e88227d0bd79c5d8b255f968ff8f882493c22f2206375501a9dbbf1",
+      "source_rows": 2000,
+      "train_rows": 1800
+    },
+    {
+      "dev_rows": 1000,
+      "path": "heico/data/frame/train.parquet",
+      "sha256": "668ffeacf0e279c4974964dfd59be39988269f364ba2b0c4ae86f557ca87d70e",
+      "source_rows": 4000,
+      "train_rows": 3000
+    },
+    {
+      "dev_rows": 200,
+      "path": "heico/data/frame/test.parquet",
+      "sha256": "a9e37b483d70b81d2a4d2b1efc2bb6939c0d0dee084b78cb5452883550058396",
+      "source_rows": 2000,
+      "train_rows": 1800
+    },
+    {
+      "dev_rows": 1120,
+      "path": "lapchole/data/segment/train.parquet",
+      "sha256": "1ac208268dcb8c01ec45b6290580bc0e6ff7cab764a2a7a59d044084999d45af",
+      "source_rows": 5760,
+      "train_rows": 4640
+    },
+    {
+      "dev_rows": 480,
+      "path": "lapchole/data/segment/test.parquet",
+      "sha256": "93a2c0e26f6b2fd91bd3dc661d821e675d34b99800c2bbeaea0bb82afea7e2ba",
+      "source_rows": 2240,
+      "train_rows": 1760
+    },
+    {
+      "dev_rows": 1120,
+      "path": "lapchole/data/frame/train.parquet",
+      "sha256": "935c2e7039481b9ecac9e7b51e74cd5a230150598267b0d87bf079e0193e0e7b",
+      "source_rows": 5760,
+      "train_rows": 4640
+    },
+    {
+      "dev_rows": 480,
+      "path": "lapchole/data/frame/test.parquet",
+      "sha256": "11a460133801231e8078faec9877a6bc532320e9fbdb43346b268f1c21bd4f18",
+      "source_rows": 2240,
+      "train_rows": 1760
+    }
+  ],
+  "prepared_files": {
+    "dev_rows": {
+      "name": "dev_rows.jsonl",
+      "sha256": "f079b72352c3a94bb2346f7b1516c29269cc178690d1944ea0392b278ace1619"
+    },
+    "eval_schedule": {
+      "name": "eval_schedule.jsonl",
+      "sha256": "55482dc6272123e792e228a49e6da8068ddbe7b17a5b61bfbf2e11bf5f104d3e"
+    },
+    "official_eval_schedule": {
+      "name": "official_eval_schedule.jsonl",
+      "sha256": "660321f3ab9eb8a279b81e8f0ed5310946ec9e768ad2fc70a49fbe38f546076f"
+    },
+    "schedule": {
+      "name": "schedule.jsonl",
+      "sha256": "2fceae8f59e5c7df82c7bb66d364a5a5e8c58a27ba760ed4bad309370afe204d"
+    },
+    "training_rows": {
+      "name": "training_rows.jsonl",
+      "sha256": "bcba66c786a03b6eeb9a1f4633ade79f58d131c944056c6179524346f192ce77"
+    }
+  }
+}

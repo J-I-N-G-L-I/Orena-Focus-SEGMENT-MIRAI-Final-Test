@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LapChole answer-correction packet",
+  "type": "object",
+  "required": [
+    "version",
+    "dataset",
+    "source_file",
+    "source_file_sha256",
+    "generation_method",
+    "entries"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "dataset": {
+      "const": "lapchole-focus-vqa"
+    },
+    "access": {
+      "type": "string"
+    },
+    "generation_method": {
+      "type": "string"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_file_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "internal_id",
+          "source_row_id",
+          "source_split",
+          "split",
+          "field",
+          "before",
+          "after",
+          "training_exposures_through_step3500"
+        ],
+        "properties": {
+          "internal_id": {
+            "type": "string"
+          },
+          "source_row_id": {
+            "type": "string"
+          },
+          "source_split": {
+            "const": "train"
+          },
+          "split": {
+            "enum": [
+              "train",
+              "dev"
+            ]
+          },
+          "field": {
+            "const": "answer"
+          },
+          "before": {
+            "type": "string"
+          },
+          "after": {
+            "type": "string"
+          },
+          "training_exposures_through_step3500": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

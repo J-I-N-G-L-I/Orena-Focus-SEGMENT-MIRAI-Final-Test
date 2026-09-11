@@ -1,0 +1,69 @@
+{
+  "format": "mirai-segment-public-release-v1",
+  "release_tag": "v1.0.0",
+  "model_archive": {
+    "filename": "mirai-segment-step3500-model.tar.gz",
+    "sha256": "d00f3658b2f413ee68c4711193a6fc8a7c34c26ea59b5e310f4d1773a8c81630",
+    "bytes": 157514974
+  },
+  "model_files": [
+    {
+      "path": "model/adapter/adapter_config.json",
+      "sha256": "05b30fbcac49d5678497670b3c476b8bae63013fdc00d193018a4dc357cd43b6",
+      "bytes": 30958
+    },
+    {
+      "path": "model/adapter/adapter_model.safetensors",
+      "sha256": "9f88d41efb3e271190072dad47f4a608caf322b7d5ffa0060c074d3f435d6497",
+      "bytes": 165971760
+    },
+    {
+      "path": "model/LICENSE_QWEN.txt",
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "bytes": 11544
+    },
+    {
+      "path": "model/MODEL_LICENSE.md",
+      "sha256": "43d0fa5419625a6ce7eb9e1c97c86dd80d22dd97ae09c91a7efcc23e3b222cb8",
+      "bytes": 2173
+    },
+    {
+      "path": "model/processor/chat_template.jinja",
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "bytes": 7756
+    },
+    {
+      "path": "model/processor/processor_config.json",
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+      "bytes": 1191
+    },
+    {
+      "path": "model/processor/tokenizer.json",
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "bytes": 19989325
+    },
+    {
+      "path": "model/processor/tokenizer_config.json",
+      "sha256": "5f7aa0d810000c4a0940b35c8f16e56c3439260fccc13a321826ebc3ccf2501f",
+      "bytes": 1166
+    },
+    {
+      "path": "model/README.md",
+      "sha256": "884a655b9563de3ab2cb502cabe3590ae4179100224e9af69dc89adcf4bdf445",
+      "bytes": 4406
+    },
+    {
+      "path": "model/run_manifest.json",
+      "sha256": "1ef1cf875e0902b60177fb2ce33e935fb8d095c8035b2ba30265607747b6a976",
+      "bytes": 1548
+    }
+  ],
+  "base_model": {
+    "repo_id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  },
+  "optimizer_step": 3500,
+  "visual_budget_units": 38,
+  "adapter_parameters": 41474048,
+  "adapter_tensors": 500
+}

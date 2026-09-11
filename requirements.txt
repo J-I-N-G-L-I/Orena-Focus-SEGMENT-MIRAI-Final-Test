@@ -1,0 +1,11 @@
+# Public inference rebuild: direct dependencies only; this is not an image freeze.
+# Install torch/torchvision from the official cu128 index before this file when
+# using a fresh virtual environment (the Docker base already includes them).
+torch==2.8.0
+torchvision==0.23.0
+transformers==5.9.0
+peft==0.19.1
+accelerate==1.14.0
+numpy==2.4.4
+Pillow==12.2.0
+decord==0.6.0
